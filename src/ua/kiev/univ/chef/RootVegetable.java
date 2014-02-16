@@ -1,0 +1,18 @@
+package ua.kiev.univ.chef;
+
+/**
+ * Root vegetables (Корнеплоды)
+ * @version 1.0 3 Oct 2013
+ * @author Andrei Loyevets
+ */
+abstract public class RootVegetable extends Vegetable{		
+	public RootVegetable(String name, double calories) {
+		super(name, calories);
+		setCategory("Root vegetables");
+	}
+	
+	public RootVegetable(String name, double calories, double weight) {
+		super(name, calories, weight);
+		setCategory("Root vegetables");
+	}
+}
